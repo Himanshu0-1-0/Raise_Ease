@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now</title>
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1><%= cap %></h1>
+    </header>
+    <main>
+        <section class="donation-message">
+            <h2>Help Us Make a Difference</h2>
+            <h3>Name: <%= name %></h3>
+            <h4>Message: </h4>
+            <p>
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, culpa eaque possimus iure facere ut eum. Eius deserunt minima, tempora ad doloribus, laudantium quas impedit nulla assumenda, ipsa sit!Your contribution can make a positive impact on the lives of those in need. Every little bit counts, and together we can bring hope and support to vulnerable communities. -->
+                <%= msg %>
+            </p>
+        </section>
+        <section class="donation-image">
+            <img src="<%= img%>" alt="Donation Image">
+            <h3>Support Our Cause</h3>
+            <p>
+                Your generous donation will help us make a difference. Thank you for your generous donation..
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Himanshu..!</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raise_Ease/Form</title>
+    <link rel="stylesheet" href="/css/raise.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <form action="/upl" method="post" class="form" id="form" enctype="multipart/form-data">
+                <div class="h1"><h1>We Will Be Wanting Some Details To Register Your Request to Raise Funds..</h1>
+                <h1> Please Fill Correctly As All The Details Will Be Verified.</h1></div>
+                <h2 >Basic Information:</h2>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Please Type Your Name..." autocomplete="off" required>
+                <label for="phn_no">Phone Number:</label>
+                <input type="number" name="phn_no" id="phn_no" placeholder="Please Type Your Phone Number..." required>
+                <label for="mail">E-Mail:</label>
+                <input type="email" name="mail" id="mail" placeholder="Please Type Your Email_Id.." autocomplete="off" required>
+                <h2 >Message Shown At Your Page:</h2>
+                <label for="caption">Caption:</label>
+                <input type="text" name="caption" id="caption" placeholder="Please Type the Caption.." autocomplete="off" required>
+                <label for="msg">Message To Donators (Best If 80-100 words):</label>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Please Enter Your Message To Your Donators.." autocomplete="off" required></textarea>
+                <h2 >Scanner:</h2>
+                <label for="scanner">Scanner:</label>
+                <input type="file" name="scanner" id="scanner" placeholder="upload the Photo Of scanner" required>
+                <label for="yess">Do You Want Your Different Website Or Wanna Raise Through Raise_Ease Donation Portal:</label>
+                <input type="text" name="ress" id="ress" placeholder="Type 'y' for yes and 'n' for no (Some Charges May Be Applied For Different Website)" autocomplete="off" required>
+                <button class="btn" type="submit">Submit Your Details...</button>
+            </form>
+            <footer>@Himanshu..!</footer>
+        </div>
+    </div>
+</body>
+</html>
